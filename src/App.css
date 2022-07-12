@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+body {
+  background: #d6d6d6;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+fieldset {
+  margin: 10px;
+  border: 1px solid #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.jusify-area {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* justify-content: center; */
 }
 
-.App-link {
-  color: #61dafb;
+.jusify-area img {
+  border: 1px solid #c7c4c4;
+}
+.css-selector{
+  margin-left: 15px;
+}
+.css-prop{
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+form {
+  display: flex;
+}
+.css-prop,
+label {
+  padding: 5px 10px;
+  margin-left: 30px;
+}
+select {
+  appearance: none;
+  border: 1px solid #fff;
+  outline: 0;
+  font: inherit;
+  width: 10em;
+  height: 2em;
+  padding: 0 1em;
+  color: #000000;
+  border-radius: 0.25em;
+  cursor: pointer;
+  background-color: #d6d6d6;
+
+}
+
+
+select option {
+  background-color: #d6d6d6;
+}
+
+option:focus {
+  outline: none;
+}
+
+option::-ms-expand {
+  display: none;
 }
